@@ -2,7 +2,7 @@
   (:require [clj-http.client :as client]))
 
 
-(def api-key "Tb7Lyf4DDzPqVbvGPY0WDzJ4fH0YPsEU05k7JaMm")
+(def api-key "DEMO_KEY")
 (def base-url (str "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos/?api_key=" api-key))
 
 (defn pprint-output [data]
