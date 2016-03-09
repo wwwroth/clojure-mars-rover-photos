@@ -3,7 +3,7 @@
 Quick Clojure project to retrieve data from Nasa's Mars Rover Photos API
 
 ## Usage
-```
+```clojure
 (:body (get-rover-data (generate-url {:sol 50})))
 (:body (get-rover-data (generate-url {:sol 50 :camera "FHAZ"})))
 ```
